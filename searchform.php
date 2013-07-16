@@ -8,10 +8,7 @@
 ?>
 
 <form action="<?php echo site_url(); ?>" id="searchform" method="get">
-<table border="0" align="right" cellpadding="0" cellspacing="0">
-  <tr>
-    <td><input type="text" id="s" name="s" value="" /></td>
-    <td><input type="submit" value="Search" id="searchsubmit" /></td>
-  </tr>
-</table>
+<div class="flex_75 right"><input type="text" id="s" name="s" value="" /></div>
+<div class="flex_25"><input type="submit" value="Search" id="searchsubmit" /></div>
+<div class="clear"></div>
 </form>

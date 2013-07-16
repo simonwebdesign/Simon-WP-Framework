@@ -23,9 +23,6 @@ function simonwpframework_setup(){
 	// Editor Support
 		add_editor_style();
 		
-	// Add Thumnail Support
-		add_theme_support( 'post-thumbnails' );
-		
 	// Set Content Width
 		$content_width = 728;
 }
