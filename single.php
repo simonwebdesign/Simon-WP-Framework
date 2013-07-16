@@ -21,13 +21,13 @@ get_header(); ?>
     </div>
     <div class="postmetadata">
       <div class="author">
-        <?php if (function_exists('get_avatar')) { echo get_avatar( get_the_author_email(), '100' ); }?>
+        <?php if (function_exists('get_avatar')) { echo get_avatar( get_the_author_meta('email'), '100' ); }?>
         <div class="authorinfo">
           <h3>About
             <span rel="author"><?php the_author_posts_link(); ?></span>
           </h3>
           <p>
-            <?php the_author_description(); ?>
+            <?php the_author_meta('description'); ?>
           </p>
           <div class="clear"></div>
         </div>
