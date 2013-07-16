@@ -162,7 +162,6 @@ nav a#pull {
 }
 #navigation ul ul a {
 	background: #f9f9f9;
-	border-bottom: 1px dotted #ddd;
 	color: #444;
 	font-size: 13px;
 	font-weight: normal;
@@ -210,7 +209,6 @@ nav a#pull {
 /* ---------------------------------------------------------- */
 
 .postmetadata {
-	border-top: dotted 1px #e3e3e3;
 	padding: 15px 0px 5px 0px;
 	color: #777777;
 	font-size: 12px;
@@ -282,9 +280,9 @@ img {
 	padding: 0px 0px 0px 23px;
 }
 .categories {
-	background: url(images/swpf_icons.png) no-repeat left -45px;
+	background: url(images/swpf_icons.png) no-repeat left -108px;
 	margin: 0px;
-	padding: 0px 0px 0px 25px;
+	padding: 0px 0px 0px 23px;
 }
 .tags {
 	background: url(images/swpf_icons.png) no-repeat left -24px;
@@ -292,9 +290,9 @@ img {
 	padding: 0px 0px 0px 23px;
 }
 .meta_author {
-	background: url(images/swpf_icons.png) no-repeat left -108px;
+	background: url(images/swpf_icons.png) no-repeat left -45px;
 	margin: 0px;
-	padding: 0px 0px 0px 23px;
+	padding: 0px 0px 0px 25px;
 }
 .author {
 	background: #f3f3f3;
@@ -468,7 +466,7 @@ h3#reply-title {
 #respond {
 	margin: 40px 0px 0px 0px;
 }
-/* Pagination */
+/* Navigation 2 */
 /* ---------------------------------------------------------- */
 
 .navigation {
@@ -523,14 +521,14 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 #header h1 {
-	font-weight: 300;
+	font-weight: 600;
 	margin: 0px;
 	padding: 30px 0px 0px 0px;
 }
 #header h1 a {
 	color: black;
 	font-size: 36px;
-	letter-spacing: -1.5px;
+	letter-spacing: -.5px;
 	text-decoration: none;
 }
 #header h1 a:hover {
@@ -891,7 +889,7 @@ input[type="text"] {
 }
 textarea {
 	height: auto;
-	width: 200px;
+	width: 80%;
 }
 radio, checkbox {
 	min-height: 20px;
