@@ -9,6 +9,12 @@ A little bit about the Simon WP Framework:
     Widget Ready
 
 Change Log 
+07/15/13 - v.2.1 Minor Changes
+	Clean up code, Clean up Responsiveness, Merged Typography Framework
+
+05/15/13 - v.2.0 Minor Changes
+	Clean up code, added Responsiveness, Updated Icons
+
 03/11/13 - v.1.4.1 Minor Changes
 	Added To Top Jquery
 
