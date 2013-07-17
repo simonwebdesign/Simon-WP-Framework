@@ -53,7 +53,7 @@
 </div>
 <nav>
   <div id="navigation" class="flex_100">
-  <?php wp_nav_menu( array('menu' => 'Testing Menu' )); ?>
+  <?php wp_nav_menu(); ?>
 <div class="clear"></div>
 <a href="#" id="pull"><img src="<?php bloginfo('template_directory') ?>/images/nav-icon.png"></a></div>
 </nav>
