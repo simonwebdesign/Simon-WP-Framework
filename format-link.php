@@ -25,7 +25,7 @@
             endif;
     ?>
     <a href="<?php echo $linkurl; ?>">
-    <?php the_content(); ?>
+    <div class="post-status-icon"></div><?php the_content(); ?>
     </a>
     <?php endif; ?>
   </div>

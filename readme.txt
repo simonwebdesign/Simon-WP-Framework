@@ -9,6 +9,9 @@ A little bit about the Simon WP Framework:
     Widget Ready
 
 Change Log 
+09/05/13 - v.2.1.3 Major Changes
+	Clean up Flex Grid CSS, Add Post Status Icons, Center Titles in Page and Single
+
 07/15/13 - v.2.1 Minor Changes
 	Clean up code, Clean up Responsiveness, Merged Typography Framework
 

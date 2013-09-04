@@ -6,7 +6,7 @@ Author: SWD
 Author URI: http://simonwebdesign.com
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 2.1.1
+Version: 2.1.3
 Tags: light, white, black, gray, two-columns, right-sidebar, fixed-width, custom-background, post-formats
 */
 
@@ -44,63 +44,73 @@ html {
 	width: 960px;
 }
 .inner_wrap {
+	padding: 30px;
+}
+.flex_10,
+.flex_20,
+.flex_25,
+.flex_33,
+.flex_40,
+.flex_50,
+.flex_60,
+.flex_66,
+.flex_75,
+.flex_80,
+.flex_90,
+.flex_100 {
+	display:inline;
+	float: left;
+	position: relative;
+}
+.push {
+  margin: 1px 0px 0px 0px;
 }
 .flex_10 {
-	width: 10%;
-	float: left;
+	width:10%;
 }
 .flex_20 {
-	width: 20%;
-	float: left;
+	width:20%;
 }
 .flex_25 {
-	width: 25%;
-	float: left;
+	width:25%;
 }
 .flex_33 {
-	width: 33%;
-	float: left;
+	width:33%;
 }
 .flex_40 {
-	width: 40%;
-	float: left;
+	width:40%;
 }
 .flex_50 {
-	width: 50%;
-	float: left;
+	width:50%;
 }
 .flex_60 {
-	width: 60%;
-	float: left;
+	width:60%;
 }
 .flex_66 {
-	width: 66%;
-	float: left;
+	width:66%;
 }
 .flex_75 {
-	width: 75%;
-	float: left;
+	width:75%;
 }
 .flex_80 {
-	width: 80%;
-	float: left;
+	width:80%;
 }
 .flex_90 {
-	width: 90%;
-	float: left;
+	width:90%;
 }
 .flex_100 {
-	width: 100%;
+	width:100%;
 }
 .flex_pad {
 	padding: 10px;
 }
 .flex_vert_pad {
-	padding: 10px 0px 15px 0px;
+	padding: 10px 0px 10px 0px;
 }
 .clear {
 	clear: both;
 }
+
 /* Header */
 /* ---------------------------------------------------------- */
 #header {
@@ -239,7 +249,16 @@ img {
 	padding: 30px;
 }
 .post, .type-post, .type-page {
-	padding: 0px 0px 55px 0px;
+	padding: 0px 0px 35px 0px;
+}
+.textcenter {
+	text-align: center;
+}
+.textleft {
+	text-align: left;
+}
+.textright {
+	text-align: right;
 }
 .aligncenter {
 	display: block;
@@ -543,8 +562,7 @@ body {
 .bread-crumb {
 	color: #777777;
 	font-size: 10px;
-	background: #f3f3f3;
-	margin: 0px 0px 20px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 5px 5px 5px 10px;
 }
 .postdate {
@@ -952,7 +970,7 @@ select:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
 	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
 	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
 	background-repeat: repeat-x;
- filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
 	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
 	border: 1px solid #cccccc;
 	border-bottom-color: #b3b3b3;
