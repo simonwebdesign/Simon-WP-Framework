@@ -10,7 +10,7 @@
 	width: 1200px;
 }
 }
-@media screen and (min-width: 1025px) and (max-width: 1224px) {
+@media screen and (min-width: 1024px) and (max-width: 1225px) {
 .outer_wrap {
 	margin: 0 auto;
 	width: 960px;
