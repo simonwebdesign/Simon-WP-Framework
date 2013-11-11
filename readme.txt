@@ -9,6 +9,12 @@ A little bit about the Simon WP Framework:
     Widget Ready
 
 Change Log 
+09/05/13 - v.2.1.6 Minor Changes
+	Added outer wrap, inner wrap, and content classes to header, content, and footer.
+
+09/05/13 - v.2.1.5 Minor Change
+	Removed Credit Link
+
 09/05/13 - v.2.1.4 Minor Changes
 	Clean up CSS
 
