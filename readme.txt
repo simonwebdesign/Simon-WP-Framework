@@ -9,6 +9,10 @@ A little bit about the Simon WP Framework:
     Widget Ready
 
 Change Log 
+
+09/05/13 - v.2.1.7 Minor Changes
+	Updated Post format functionality. Updated CSS.
+
 09/05/13 - v.2.1.6 Minor Changes
 	Added outer wrap, inner wrap, and content classes to header, content, and footer.
 

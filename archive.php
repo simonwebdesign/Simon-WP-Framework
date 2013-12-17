@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for Archive.
+ * The template for displaying Index.
  *
  * @package Simon WP Framework
  * @since Simon WP Framework 1.0
@@ -35,12 +35,7 @@ get_header(); ?>
               <?php } ?>
               </a></h1>
             <div class="entry">
-              <?php the_content(); ?>
-            </div>
-            <div class="postmetadata">
-              <?php get_template_part( '/inc/meta' );?>
-              <?php the_tags('<span class="tags">Tags: ', ', ', '</span>'); ?>
-              <?php comments_popup_link( 'No comments yet', '1 comment', '% comments', 'post-comments', 'Comments are off for this post'); ?>
+              <?php get_template_part( 'format', get_post_format() ); ?>
             </div>
           </div>
           <div class="clear"></div>
@@ -48,7 +43,7 @@ get_header(); ?>
         <?php endwhile; ?>
         <?php get_template_part( '/inc/nav' );?>
         <?php else : ?>
-        <h1>Nothing found</h1>
+        <h2>Not Found</h2>
         <?php endif; ?>
       </div>
     </div>

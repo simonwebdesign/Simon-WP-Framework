@@ -16,13 +16,17 @@ get_header(); ?>
       </div>
       <h1 class="entry-title center">
         <?php the_title(); ?>
+        <?php edit_post_link('Edit'); ?>
       </h1>
+      <div class="postmetadata center">
+        <?php get_template_part( '/inc/meta' );?>
+      </div>
       <div class="flex_vert_pad"></div>
       <div class="flex_100">
         <div class="flex_66">
           <div <?php post_class() ?> id="post-<?php the_ID(); ?>">
             <div class="entry">
-              <?php the_content(); ?>
+              <?php get_template_part( 'format', get_post_format() ); ?>
             </div>
             <div class="postmetadata">
               <div class="author">
@@ -37,11 +41,6 @@ get_header(); ?>
                   <div class="clear"></div>
                 </div>
               </div>
-              <?php get_template_part( '/inc/meta' );?>
-              <span class="categories">Filed Under:
-              <?php the_category(', '); ?>
-              </span>
-              <?php the_tags('<span class="tags">Tags: ', ', ', '</span>'); ?>
             </div>
           </div>
           <div id="comment-block">
