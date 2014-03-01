@@ -10,6 +10,12 @@ A little bit about the Simon WP Framework:
 
 Change Log 
 
+03/01/14 - v.2.2.0 Minor Changes
+	Updated Enques for Scripts and CSS.
+	Added SVG Icons
+	Minor CSS Fixes
+	Added Header and Footer inner and outer wraps
+
 09/05/13 - v.2.1.7 Minor Changes
 	Updated Post format functionality. Updated CSS.
 

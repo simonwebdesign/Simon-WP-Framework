@@ -8,8 +8,8 @@
 ?>
 
 <div style="clear: both"></div>
-<div class="outer_wrap">
-  <div class="inner_wrap">
+<div class="outer_footer_wrap">
+  <div class="inner_footer_wrap">
     <div class="content">
       <div style="clear: both"></div>
       <div id="footer">

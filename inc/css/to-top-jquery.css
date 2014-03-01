@@ -1,0 +1,10 @@
+/* Created by SimonWebDesign */
+
+.to-top-jquery {
+	width: 30px;
+	height: 30px;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	display: none;
+}

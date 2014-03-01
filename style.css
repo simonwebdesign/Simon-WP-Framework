@@ -6,7 +6,7 @@ Author: SWD
 Author URI: http://simonwebdesign.com
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Version: 2.1.9
+Version: 2.2.0
 Tags: light, white, black, gray, two-columns, right-sidebar, fixed-width, custom-background, post-formats
 */
 
@@ -40,10 +40,10 @@ html {
 }
 /* Flex Grid */
 .outer_wrap {
-		margin: 0 auto;
-		width: 960px;
 }
 .inner_wrap {
+		margin: 0 auto;
+		width: 960px;
 		padding: 20px 0px 20px 0px;
 }
 .flex_10,
@@ -113,7 +113,7 @@ html {
 /* Header */
 /* ---------------------------------------------------------- */
 #header {
-		height: 100px;
+		padding: 20px;
 }
 /* Navigation */
 /* ---------------------------------------------------------- */
@@ -559,7 +559,6 @@ body {
 #header h1 {
 		font-weight: 600;
 		margin: 0px;
-		padding: 30px 0px 0px 0px;
 }
 #header h1 a {
 		color: black;
