@@ -39,7 +39,6 @@ body {
 #header h1 {
 	border-right: none;
 	float: none;
-	padding: 20px 0px 0px 10px;
 	margin: 0px;
 }
 #header {
@@ -49,7 +48,7 @@ body {
 	color: #777777;
 	float: none;
 	margin: 0px;
-	padding: 0px 0px 0px 10px;
+	padding: 0px;
 }
 nav {
 	border-bottom: 0;
@@ -147,12 +146,12 @@ nav li a {
 #header h1 {
 	border-right: none;
 	float: none;
-	padding: 20px 0px 0px 0px;
+	padding: 10px;
 	margin: 0px;
 }
 #header {
 	text-align: center;
-	padding: 0px 0px 0px 10px;
+	padding: 0px;
 	width: auto;
 }
 #header .flex_66 {
@@ -160,10 +159,6 @@ nav li a {
 }
 .description {
 	display:none;
-	color: #777777;
-	float: none;
-	margin: 0px;
-	padding: 0px 0px 0px 0px;
 }
 .content .flex_66, 
 .content .post .flex_90 {
@@ -190,7 +185,6 @@ object, video, audio, iframe {
 }
 .time, .post-comments, .categories, .tags, .meta_author {
 	display: none;
-	margin: 0px 0px 5px 0px;
 }
 #sidebar {
 	display: none;
@@ -200,6 +194,8 @@ object, video, audio, iframe {
 }
   
 }
+
+
 
 
 

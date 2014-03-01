@@ -1,7 +1,7 @@
 /*   
 Theme Name: Simon WP Framework
 Theme URI: http://simonwebdesign.com/simon-wp-framework/
-Description: A blank framework licensed under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>. It's a blank theme that provides the most flexibility for creating child themes from Simon WP Framework. Theme comes with custom icons. This Framework is widget ready in the sidebar and in the footer.
+Description: A blank framework licensed under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>. It's a blank theme that provides the most flexibility for creating child themes from Simon WP Framework. Theme comes with custom icons. This Framework is widget ready in the sidebar and in the footer. Typography is also responsive based on flowtype.js. Simon WP Framework theme comes with custom icons in jpg and svg. Theme menu displays only top level items. FlowType.JS by Simple Focus (http://simplefocus.com/) is licensed under the MIT License. Retina.js (http://retinajs.com/) is licensed under the MIT License.
 Author: SWD
 Author URI: http://simonwebdesign.com
 License: GNU General Public License v2.0
@@ -42,8 +42,6 @@ html {
 .outer_wrap {
 }
 .inner_wrap {
-		margin: 0 auto;
-		width: 960px;
 		padding: 20px 0px 20px 0px;
 }
 .flex_10,
@@ -114,6 +112,10 @@ html {
 /* ---------------------------------------------------------- */
 #header {
 		padding: 20px;
+}
+.outer_header_wrap {
+}
+.inner_header_wrap {
 }
 /* Navigation */
 /* ---------------------------------------------------------- */
@@ -356,6 +358,10 @@ img {
 		text-align: center;
 		padding: 20px;
 		color: #848484;
+}
+.outer_footer_wrap {
+}
+.inner_footer_wrap {
 }
 /* Misc */
 /* ---------------------------------------------------------- */
@@ -1054,4 +1060,5 @@ input[type="submit"] {
 		outline: 5px auto -webkit-focus-ring-color;
 		outline-offset: -2px;
 }
+
 
