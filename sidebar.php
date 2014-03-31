@@ -9,9 +9,9 @@
 
 <div class="flex_33">
   <div id="sidebar"> 
-    <!-- begin widget sidebar --> 
+    <!-- begin widget sidebar -->
     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Main Sidebar') ) : ?>
- 	<div class="no-widgets">
+    <div class="no-widgets">
       <div id="pages" class="flex_100">
         <h2>Pages</h2>
         <ul>

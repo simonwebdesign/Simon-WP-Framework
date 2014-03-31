@@ -23,27 +23,31 @@
 <div class="outer_header_wrap">
   <div class="inner_header_wrap">
     <div class="flex_100">
-      <div id="header"><div class="flex_66">
-        <h1><a href="<?php echo home_url(); ?>/">
-          <?php bloginfo('name'); ?>
-          </a></h1>
-        <div class="description">
-          <?php bloginfo('description'); ?>
+      <div id="header">
+        <div class="flex_50">
+          <h1><a href="<?php echo home_url(); ?>/">
+            <?php bloginfo('name'); ?>
+            </a></h1>
+          <div class="description">
+            <p>
+              <?php bloginfo('description'); ?>
+            </p>
+          </div>
+        </div>
+        <div class="flex_50">
+          <nav>
+            <div id="navigation" class="flex_100 right">
+            <a href="#" id="pull">&#9776;
+              </a>
+              <div class="clear"></div>
+                            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+
+            </div>
+          </nav>
         </div>
       </div>
-      <div class="flex_33">
-        <div id="search">
-          <?php get_search_form(); ?>
-        </div>
-      </div></div>
       <div class="clear"></div>
     </div>
-    <nav>
-      <div id="navigation" class="flex_100">
-        <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-        <div class="clear"></div>
-        <a href="#" id="pull"><img src="<?php bloginfo('template_directory') ?>/images/nav-icon.png"></a></div>
-    </nav>
     <div class="clear"></div>
   </div>
 </div>

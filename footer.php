@@ -7,7 +7,7 @@
  */
 ?>
 
-<div style="clear: both"></div>
+<div class="clear"></div>
 <div class="outer_footer_wrap">
   <div class="inner_footer_wrap">
     <div class="content">
@@ -20,9 +20,10 @@
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Footer3") ) : ?>
         <?php endif; ?>
         <div style="clear: both"></div>
-        &copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?> | Powered By Simon WP Framework &amp; WordPress</div>
+        <p>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?> | Powered By Simon WP Framework &amp; WordPress</p></div>
     </div>
   </div>
 </div>
 <?php wp_footer(); ?>
+
 </body></html>
